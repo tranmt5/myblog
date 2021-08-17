@@ -1,0 +1,13 @@
+---
+layout: post
+title: My first blog with Jekyll
+date:  2021-08-13 15:12:33 +0700
+categories: blog
+permalink: /:categories/:day/:year/:month/:title.html
+image: /assets/images/thien-nhien6.jpg
+---
+
+# This is content 
+# This is content #
+This is content
+![]({{ page.image | relative_url}})
