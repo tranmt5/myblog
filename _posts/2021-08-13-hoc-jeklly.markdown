@@ -9,7 +9,7 @@ image: /assets/images/thien-nhien6.jpg
 
 # This is content 
 ![]({{ page.image | relative_url}})
-![my picture]({{ site.baseurl }}/assets/images/thien-nhien6.jpg)
-<img src="{{ '/assets/images/thien-nhien6.jpg' | relative_url }}" />
+![my picture]({{ site.baseurl }}/assets/images/thien-nhien7.jpg)
+<img src="/assets/images/thien-nhien6.jpg" />
 <br/><br/>
 [get the jekyll document .docx](/assets/doc_pdf/jekyll.docx) directly
