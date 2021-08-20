@@ -26,7 +26,11 @@ baseurl: "myblog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb 
 github_username:  tranmt5
-BASE_PATH : /RICENCODE  # địa chỉ lưu image lên github
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 
 # Build settings
 theme: minima
